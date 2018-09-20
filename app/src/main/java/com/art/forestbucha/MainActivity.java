@@ -1,13 +1,15 @@
 package com.art.forestbucha;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.support.v4.app.Fragment;
 
-public class MainActivity extends AppCompatActivity {
+import com.art.forestbucha.base.SingleFragmentActivity;
+import com.art.forestbucha.view.fragment.LoginFragment;
+import com.art.forestbucha.view.fragment.MainFragment;
+
+public class MainActivity extends SingleFragmentActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    public Fragment createFragment() {
+        return LoginFragment.newInstance();
     }
 }
