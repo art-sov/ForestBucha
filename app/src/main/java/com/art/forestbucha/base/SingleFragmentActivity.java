@@ -11,6 +11,9 @@ import com.art.forestbucha.R;
 
 public abstract class SingleFragmentActivity extends AppCompatActivity {
 
+    // FireBase
+    // Package Name: "com.art.forestbucha"
+    // SHA1: "49d188028b2ee68f22389cefbc29da245791b8d1"
     public abstract Fragment createFragment();
 
     @LayoutRes

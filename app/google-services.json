@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "79724115240",
+    "firebase_url": "https://forestbucha-54b44.firebaseio.com",
+    "project_id": "forestbucha-54b44",
+    "storage_bucket": "forestbucha-54b44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79724115240:android:8f92fe763fad6522",
+        "android_client_info": {
+          "package_name": "com.art.forestbucha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79724115240-vdeuh3jtb206s338qgbccjhdctdss7vr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.art.forestbucha",
+            "certificate_hash": "49d188028b2ee68f22389cefbc29da245791b8d1"
+          }
+        },
+        {
+          "client_id": "79724115240-9evfjfpveuhctlj543pv7rt4on71598s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDKYAXWLfObrPWXUWm1pcQ6SAT8VYAQoI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79724115240-9evfjfpveuhctlj543pv7rt4on71598s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
